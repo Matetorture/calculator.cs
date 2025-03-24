@@ -5,14 +5,6 @@ This is a simple calculator application built using WPF (Windows Presentation Fo
 
 The user interface is designed using XAML, and the logic behind the calculator's operations is handled in C#.
 
-### Features:
-- **Basic Arithmetic Operations**: +, -, *, /
-- **Advanced Operations**: %, ^ (Exponentiation)
-- **Clear**: Clears the display and resets the calculator.
-- **Delete**: Deletes the last entered digit.
-- **Decimal Point**: Allows entering decimal values.
-- **History Display**: Shows the history of operations performed.
-
 ## UI Components
 
 - **Display**: The main area where numbers and results are shown. It can also show the history of operations performed above it.

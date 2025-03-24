@@ -54,5 +54,4 @@ When the calculator is opened, the display shows `0` and the history display is 
 <img src="img/03.png" alt="Starting the Calculator Img"> 
 
 ## Conclusion
-This calculator offers a straightforward user interface for performing basic and advanced arithmetic operations. The design is simple, with clear buttons for each function, and the history display allows the user to track previous calculations. With this application, users can efficiently perform calculations, clear entries, or delete incorrect digits.
-
+This calculator offers a straightforward user interface for performing basic and advanced arithmetic operations. The design is simple, with clear buttons for each function, and the history display allows the user to track previous calculations.

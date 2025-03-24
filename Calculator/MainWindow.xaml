@@ -1,0 +1,57 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="500" Width="400">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="18" x:Name="historyDisplay" HorizontalAlignment="Right" Content="" BorderBrush="#bbbbbb" BorderThickness="0,0,0,1"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" FontSize="36" x:Name="display" HorizontalAlignment="Right" Content="0"/>
+
+        <Button Grid.Row="2" Grid.Column="0" Content="x^y" Click="Operation_Click"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="C" Click="Button_Click_C"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="←" Click="Button_Click_Delete"/>
+        <Button Grid.Row="2" Grid.Column="3" Content="/" Click="Operation_Click"/>
+
+        <Button Grid.Row="3" Grid.Column="0" Content="7" Click="Number_Click"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="8" Click="Number_Click"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="9" Click="Number_Click"/>
+        <Button Grid.Row="3" Grid.Column="3" Content="*" Click="Operation_Click"/>
+
+        <Button Grid.Row="4" Grid.Column="0" Content="4" Click="Number_Click"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="5" Click="Number_Click"/>
+        <Button Grid.Row="4" Grid.Column="2" Content="6" Click="Number_Click"/>
+        <Button Grid.Row="4" Grid.Column="3" Content="-" Click="Operation_Click"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Content="1" Click="Number_Click"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="2" Click="Number_Click"/>
+        <Button Grid.Row="5" Grid.Column="2" Content="3" Click="Number_Click"/>
+        <Button Grid.Row="5" Grid.Column="3" Content="+" Click="Operation_Click"/>
+
+        <Button Grid.Row="6" Grid.Column="0" Content="%" Click="Operation_Click"/>
+        <Button Grid.Row="6" Grid.Column="1" Content="0" Click="Number_Click"/>
+        <Button Grid.Row="6" Grid.Column="2" Content="." Click="Button_Dot"/>
+        <Button Grid.Row="6" Grid.Column="3" Content="=" Click="Button_Click_Equals"/>
+
+    </Grid>
+</Window>

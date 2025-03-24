@@ -22,7 +22,7 @@ The user interface is designed using XAML, and the logic behind the calculator's
 ### Button Descriptions:
 1. **Number Buttons (0-9)**
 
-2. **Operation Buttons (+, -, *, /)**
+2. **Operation Buttons (+, -, \*, /)**
 
 3. **Exponentiation (^)**
 

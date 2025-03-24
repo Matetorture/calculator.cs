@@ -28,7 +28,7 @@
 
         <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" FontSize="36" x:Name="display" HorizontalAlignment="Right" Content="0"/>
 
-        <Button Grid.Row="2" Grid.Column="0" Content="x^y" Click="Operation_Click"/>
+        <Button Grid.Row="2" Grid.Column="0" Content="^" Click="Operation_Click"/>
         <Button Grid.Row="2" Grid.Column="1" Content="C" Click="Button_Click_C"/>
         <Button Grid.Row="2" Grid.Column="2" Content="←" Click="Button_Click_Delete"/>
         <Button Grid.Row="2" Grid.Column="3" Content="/" Click="Operation_Click"/>

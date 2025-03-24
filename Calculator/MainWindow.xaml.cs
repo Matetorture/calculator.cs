@@ -83,7 +83,7 @@ namespace Calculator
                     case "%":
                         currentValue = lastValue % currentValue;
                         break;
-                    case "x^y":
+                    case "^":
                         currentValue = Math.Pow(lastValue, currentValue);
                         break;
                 }
